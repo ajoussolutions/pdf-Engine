@@ -41,11 +41,11 @@ Now the PDF engine can already be used http://localhost/templates
   
   <h1>Use of the API</h1>
   After the PDF engine has been installed and the first template has been created, the template can be accessed via the API link.
-To do this, data and filename must be sent via POST as json.
-Example: The template is called invoice
-POST http://localhost/api/templates/invoice/render
-{
-"data":{"docname": "invoice"},
-"filename":"invoice123"
-}
+To do this, data and filename must be sent via POST as json.<br>
+Example: The template is called invoice<br>
+POST http://localhost/api/render/template/invoice<br>
+{<br>
+"data":{"docname": "invoice"},<br>
+"filename":"invoice123"<br>
+}<br>
 
