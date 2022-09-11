@@ -1,4 +1,5 @@
-
+![Alt text](/pdfEngine/pdfengine2.PNG?raw=true "PDF Engine")
+![Alt text](/pdfEngine/pdfengine3.PNG?raw=true "PDF Engine")
 
 PDF Template Management, Visual HTML Template Editor and API to render PDFS by json data
 
@@ -6,7 +7,7 @@ PDF Template Management, Visual HTML Template Editor and API to render PDFS by j
 <h5>VERSION: development: This is a prerelease version, feel free to play with it and to submit feature requests</h5>
 <h3>Planned features until the first release:</h3>
 <ul>
-<li>User Management</li>
+<li>User Management and JWT login for API</li>
 <li>Documentation</li>
 <li>Installation guide</li>
 <li>Dolibarr Connector</li>
@@ -50,4 +51,9 @@ POST http://localhost/api/render/template/invoice<br>
 "data":{"docname": "invoice"},<br>
 "filename":"invoice123"<br>
 }<br>
+
+<h1>Include data in the PDF.</h1>
+
+The PDF engine uses https://handlebarsjs.com/ to render the JSON data into the PDF.<br>
+If, for example, {{docname}} is included in a template, the text that was transferred in the JSON with the key "docname" will appear later in the PDF at this position.
 
