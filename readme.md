@@ -7,7 +7,7 @@ PDF Template Management, Visual HTML Template Editor and API to render PDFS by j
 <h5>VERSION: development: This is a prerelease version, feel free to play with it and to submit feature requests</h5>
 <h3>Planned features until the first release:</h3>
 <ul>
-<li>User Management</li>
+<li>User Management and JWT login for API</li>
 <li>Documentation</li>
 <li>Installation guide</li>
 <li>Dolibarr Connector</li>
