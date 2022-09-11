@@ -38,4 +38,14 @@ APP_URL=http://localhost <--- Enter the apphost here.<br>
 
 This command creates the necessary database tables.<br>
 Now the PDF engine can already be used http://localhost/templates
+  
+  <h1>Use of the API</h1>
+  After the PDF engine has been installed and the first template has been created, the template can be accessed via the API link.
+To do this, data and filename must be sent via POST as json.
+Example: The template is called invoice
+POST http://localhost/api/templates/invoice/render
+{
+"data":{"docname": "invoice"},
+"filename":"invoice123"
+}
 
