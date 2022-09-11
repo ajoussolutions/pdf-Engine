@@ -20,7 +20,7 @@ wkhtmltopdf must be installed and the php function proc_open must be active!<br>
 <ul>
   <li>1. Copy all the files to your web server.</li>
   <li>2. create a mysql database.</li>
-<li>Now navigate to the pdfengine folder (where app, public, etc. are located) where you will find an .env file. In this file you have to adjust the following fields:<br>
+<li>Now navigate to the pdfengine folder (where app, public, etc. are located) where you will find an .env file (or rename .env.example to .env). In this file you have to adjust the following fields:<br>
 
 DB_CONNECTION=mysql<br>
 DB_HOST=127.0.0.1 <--- your database host (or localhost)<br>
