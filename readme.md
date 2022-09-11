@@ -12,7 +12,7 @@ PDF Template Management, Visual HTML Template Editor and API to render PDFS by j
 <li>Dolibarr Connector</li>
 </ul>
 
-<h1 style="color:red">IMPRTANT!</h1>
+<h1 style="color:red">IMPORTANT!</h1>
 The system has 2 dependencies:<br>
 wkhtmltopdf must be installed and the php function proc_open must be active!<br>
 
