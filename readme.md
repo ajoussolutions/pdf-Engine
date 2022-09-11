@@ -37,6 +37,8 @@ APP_URL=http://localhost <--- Enter the apphost here.<br>
   <strong>php artisan migrate</strong></li>
 
 This command creates the necessary database tables.<br>
+The system is based on Laravel, therefore the public folder must be selected as the "running directory" and rewrite rules must be used according to the Laravel documentation.<br>
+
 Now the PDF engine can already be used http://localhost/templates
   
   <h1>Use of the API</h1>
