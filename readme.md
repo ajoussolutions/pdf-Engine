@@ -52,3 +52,8 @@ POST http://localhost/api/render/template/invoice<br>
 "filename":"invoice123"<br>
 }<br>
 
+<h1>Include data in the PDF.</h1>
+
+The PDF engine uses https://handlebarsjs.com/ to render the JSON data into the PDF.<br>
+If, for example, {{docname}} is included in a template, the text that was transferred in the JSON with the key "docname" will appear later in the PDF at this position.
+
