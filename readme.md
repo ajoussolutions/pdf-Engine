@@ -1,4 +1,5 @@
 
+
 PDF Template Management, Visual HTML Template Editor and API to render PDFS by json data
 
 <h1>PDF ENGINE</h1>
@@ -10,6 +11,10 @@ PDF Template Management, Visual HTML Template Editor and API to render PDFS by j
 <li>Installation guide</li>
 <li>Dolibarr Connector</li>
 </ul>
+
+<h1 style="color:red">IMPRTANT!</h1>
+The system has 2 dependencies:<br>
+wkhtmltopdf must be installed and the php function proc_open must be active!<br>
 
 <h3>Short installation guide, for those who can't wait.</h3>
 <ul>
